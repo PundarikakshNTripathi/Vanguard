@@ -1,0 +1,1 @@
+# Cv\n\nRF-DETR wrapper, TensorRT compilation, Triton fused-preprocessing kernel\n

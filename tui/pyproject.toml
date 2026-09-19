@@ -1,0 +1,6 @@
+[project]
+name = "vanguard-tui"
+version = "0.1.0"
+description = "Textual application"
+requires-python = ">=3.12"
+dependencies = []\n

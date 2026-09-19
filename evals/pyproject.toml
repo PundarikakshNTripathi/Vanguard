@@ -1,0 +1,6 @@
+[project]
+name = "vanguard-evals"
+version = "0.1.0"
+description = "trajectory-eval harness, red-team guardrail test set, kernel benchmarks"
+requires-python = ">=3.12"
+dependencies = []\n
