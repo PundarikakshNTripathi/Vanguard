@@ -1,0 +1,6 @@
+[project]
+name = "vanguard-guardrails"
+version = "0.1.0"
+description = "AST SQL parser, capability-scoped tool registry, injection classifier"
+requires-python = ">=3.12"
+dependencies = []\n

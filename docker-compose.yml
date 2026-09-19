@@ -1,0 +1,26 @@
+version: "3.8"
+services:
+  postgres:
+    image: timescale/timescaledb-ha:pg16
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: vanguard
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: vanguard_db
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  # TODO(Phase 3): Inference microservice (TensorRT/Triton)
+  # inference:
+  #   image: inference-service
+  #   deploy:
+  #     resources:
+  #       reservations:
+  #         devices:
+  #           - driver: nvidia
+  #             count: 1
+  #             capabilities: [gpu]
+
+volumes:
+  pgdata:

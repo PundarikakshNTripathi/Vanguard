@@ -1,0 +1,6 @@
+[project]
+name = "vanguard-orchestrator"
+version = "0.1.0"
+description = "asyncio/uvloop DAG executor, ReAct loop, PRM trajectory selection"
+requires-python = ">=3.12"
+dependencies = []\n

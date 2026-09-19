@@ -1,0 +1,13 @@
+[project]
+name = "vanguard-pose"
+version = "0.1.0"
+description = "(optional, Phase 3B only) RTMPose keypoint inference + One-Euro filter + behavior features"
+requires-python = ">=3.12"
+
+dependencies = [
+    "torch",
+    "torchvision",
+    "triton",
+    "tensorrt",
+]
+

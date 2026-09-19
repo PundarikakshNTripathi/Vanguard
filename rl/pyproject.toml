@@ -1,0 +1,13 @@
+[project]
+name = "vanguard-rl"
+version = "0.1.0"
+description = "GRPO training data generation, reward function, TRL/Unsloth training script"
+requires-python = ">=3.12"
+
+dependencies = [
+    "torch",
+    "torchvision",
+    "triton",
+    "tensorrt",
+]
+

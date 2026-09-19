@@ -1,0 +1,29 @@
+[project]
+name = "vanguard"
+version = "0.1.0"
+description = "Autonomous multimodal threat-hunting agent"
+authors = [{ name = "Vanguard Developer" }]
+requires-python = ">=3.12"
+dependencies = []
+
+[tool.uv.workspace]
+members = [
+    "orchestrator",
+    "cv",
+    "rl",
+    "guardrails",
+    "evals",
+    "tui",
+    "pose"
+]
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu133" }
+torchvision = { index = "pytorch-cu133" }
+triton = { index = "pytorch-cu133" }
+tensorrt = { index = "pytorch-cu133" }
+
+[[tool.uv.index]]
+name = "pytorch-cu133"
+url = "https://download.pytorch.org/whl/cu133"
+explicit = true

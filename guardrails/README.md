@@ -1,0 +1,1 @@
+# Guardrails\n\nAST SQL parser, capability-scoped tool registry, injection classifier\n
